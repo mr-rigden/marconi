@@ -1,0 +1,18 @@
+
+{% include 'top.html' %}
+{% include 'cover_art.html' %}
+    <div class="episode">
+      <h1>
+        {{episode.title}}
+      </h1>
+      <div class='date'>Episode #{{episode.number}} - {{ episode.date.strftime('%B, %-m %Y') }}</div>
+      <audio controls preload="none">
+        <source src="{{episode.enclosure_url}}">
+      </audio> 
+        {{episode.description}}
+    </div>
+    {% include 'links.html' %}
+
+
+{% include 'bottom.html' %}
+

@@ -1,0 +1,29 @@
+<div class="links">
+    <div class='row'>
+        <div class='column left'>
+            <h2>Social</h2>
+            <ul>
+                {% for link in podcast.social_links %}
+                <li>
+                    <a href="{{ link.url }}">{{ link.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        
+        </div>
+        <div class='column right'>
+            <h2>Subscribe</h2>
+            <ul>
+            {% for link in podcast.subscribe_links %}
+                <li>
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% include 'episodes.html' %}
+</div>
+
+
+
