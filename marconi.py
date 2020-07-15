@@ -10,7 +10,7 @@ import requests_cache
 from slugify import slugify
 import xmltodict
 
-requests_cache.install_cache()
+#requests_cache.install_cache()
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
 
