@@ -75,7 +75,7 @@ python-xapp==1.8.1
 python-xlib==0.23
 pytz==2019.3
 pyxdg==0.26
-PyYAML==5.3.1
+PyYAML==5.4
 rencode==1.0.6
 reportlab==3.5.34
 requests==2.22.0
