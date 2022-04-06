@@ -87,7 +87,7 @@ simplejson==3.16.0
 six==1.14.0
 systemd-python==234
 tornado==5.1.1
-Twisted==18.9.0
+Twisted==22.2.0
 ubuntu-advantage-tools==20.3
 ubuntu-drivers-common==0.0.0
 ufw==0.36
