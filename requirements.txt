@@ -44,7 +44,7 @@ mate-hud==19.10.0
 mate-menu==20.4.1
 mate-tweak==20.4.0
 netifaces==0.10.4
-numpy==1.17.4
+numpy==1.22.0
 oauthlib==3.1.0
 olefile==0.46
 onboard==1.4.1
