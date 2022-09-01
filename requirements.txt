@@ -17,7 +17,7 @@ cryptography==2.8
 cupshelpers==1.0
 dbus-python==1.2.16
 defer==1.0.6
-deluge==2.0.3
+deluge==2.1.0
 distro==1.4.0
 distro-info===0.23ubuntu1
 entrypoints==0.3
