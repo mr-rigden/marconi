@@ -50,7 +50,7 @@ olefile==0.46
 onboard==1.4.1
 pathtools==0.1.2
 pexpect==4.6.0
-Pillow==7.0.0
+Pillow==9.3.0
 protobuf==3.6.1
 psutil==5.5.1
 pulsemixer==1.5.0
